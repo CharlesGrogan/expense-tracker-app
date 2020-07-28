@@ -9,19 +9,32 @@
 }
 
 body {
-  background-color: 'light-grey';
+  background-image: url('../src/images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  margin: 0;
+
+}
+
+.wrapper {
+  margin: 3rem auto;
   font-family: 'Lato', sans-serif;
+
+
 }
 
 .container {
   margin: 30px auto;
+  padding: 3rem;
   width: 350px;
+  background-color: rgba(244, 244, 244, 0.5);
+  border: 1px solid black;
+
 }
 
 h1 {
@@ -49,12 +62,12 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.inc-exp-container>div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container > div:first-of-type {
+.inc-exp-container>div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
